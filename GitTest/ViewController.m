@@ -37,6 +37,8 @@
     
     [self sayHello];
     [self sayByeBye];
+    
+    NSLog(@"Test d'un projet envoyé sur github");
 }
 
 - (void)didReceiveMemoryWarning {
