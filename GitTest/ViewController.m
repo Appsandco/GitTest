@@ -10,13 +10,25 @@
 
 @interface ViewController ()
 
+@property (nonatomic) int sum;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad
+
+{
+    [super viewDidLoad
+     ];
+    // Débarrassez-vous des ressources qui peuvent être recréées.
+    
+    int a = 5;
+    int b = 10;
+    
+    self.sum = a + b;
+    
+    NSLog(@"The result is: %d", self.sum);
 }
 
 - (void)didReceiveMemoryWarning {
