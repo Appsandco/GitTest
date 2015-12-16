@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  TestClass.m
 //  GitTest
 //
 //  Created by Apps & Co on 16/12/2015.
 //  Copyright © 2015 Apps & Co. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "TestClass.h"
 
-@interface ViewController : UIViewController
-
+@implementation TestClass
 
 @end
-

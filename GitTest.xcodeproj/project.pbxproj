@@ -13,6 +13,7 @@
 		1A5609971C21717200B82D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5609951C21717200B82D41 /* Main.storyboard */; };
 		1A5609991C21717200B82D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5609981C21717200B82D41 /* Assets.xcassets */; };
 		1A56099C1C21717200B82D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A56099A1C21717200B82D41 /* LaunchScreen.storyboard */; };
+		1A5609A51C21722900B82D41 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5609A41C21722900B82D41 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1A5609981C21717200B82D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A56099B1C21717200B82D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A56099D1C21717200B82D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5609A31C21722900B82D41 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		1A5609A41C21722900B82D41 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1A56099A1C21717200B82D41 /* LaunchScreen.storyboard */,
 				1A56099D1C21717200B82D41 /* Info.plist */,
 				1A56098C1C21717200B82D41 /* Supporting Files */,
+				1A5609A31C21722900B82D41 /* TestClass.h */,
+				1A5609A41C21722900B82D41 /* TestClass.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5609A51C21722900B82D41 /* TestClass.m in Sources */,
 				1A5609941C21717200B82D41 /* ViewController.m in Sources */,
 				1A5609911C21717200B82D41 /* AppDelegate.m in Sources */,
 				1A56098E1C21717200B82D41 /* main.m in Sources */,
